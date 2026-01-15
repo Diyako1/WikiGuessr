@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Run {
+  id          String   @id @default(uuid())
+  createdAt   DateTime @default(now())
+  startTitle  String
+  targetTitle String
+  timeMs      Int
+  clicks      Int
+  dStart      Int
+  pathTitles  Json     // Array of strings representing the path taken
+  won         Boolean
+  score       Int?
+
+  @@index([createdAt])
+  @@index([startTitle, targetTitle])
+}
