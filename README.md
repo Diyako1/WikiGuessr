@@ -10,13 +10,13 @@ The game tracks how many clicks it takes you, how long you spent, and tells you 
 
 ## Screenshots
 
-![New Game Setup](./screenshots/setup.png)
+<img src="./screenshots/setup.png" alt="New Game Setup" width="800" />
 *Setting up a new game - pick your start and target articles or generate random ones*
 
-![Gameplay](./screenshots/gameplay.png)
+<img src="./screenshots/gameplay.png" alt="Gameplay" width="800" />
 *Playing the game - navigating from Drake to Genghis Khan*
 
-![Optimal Path Hint](./screenshots/hint.png)
+<img src="./screenshots/hint.png" alt="Optimal Path Hint" width="800" />
 *The optimal path hint shows the shortest route if you get stuck*
 
 ## Tech Stack
