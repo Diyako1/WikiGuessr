@@ -71,7 +71,7 @@ export default function ResultsPage() {
 
   const handleCopy = () => {
     if (!result) return;
-    const text = `I navigated from "${result.startTitle}" to "${result.targetTitle}" in ${result.clicks} clicks and ${formatTime(result.timeMs)}! Score: ${result.score} #WikiGuesser`;
+    const text = `I navigated from "${result.startTitle}" to "${result.targetTitle}" in ${result.clicks} clicks and ${formatTime(result.timeMs)}! Score: ${result.score} #WikiGuessr`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -161,7 +161,7 @@ export default function ResultsPage() {
                 fontSize: '1.2em',
                 color: '#000'
               }}>
-                WikiGuesser
+                WikiGuessr
               </span>
             </a>
           </div>
@@ -363,7 +363,7 @@ export default function ResultsPage() {
           fontSize: '0.8em',
           color: '#72777d'
         }}>
-          WikiGuesser uses the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener noreferrer">Wikipedia API</a>. 
+          WikiGuessr uses the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener noreferrer">Wikipedia API</a>. 
           Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
         </div>
       </footer>

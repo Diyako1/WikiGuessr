@@ -1,4 +1,4 @@
-# Deploying WikiGuesser to Vercel (Free)
+# Deploying WikiGuessr to Vercel (Free)
 
 ## Quick Deploy via Web Interface (Easiest)
 
@@ -71,7 +71,7 @@ npx vercel
 
 # Follow prompts:
 # - Link to existing project? No (first time)
-# - Project name? wikiguesser
+# - Project name? wikiguessr
 # - Directory? ./
 # - Override settings? No
 

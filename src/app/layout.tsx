@@ -15,12 +15,12 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WikiGuesser - Wikipedia Navigation Game",
+  title: "WikiGuessr - Wikipedia Navigation Game",
   description: "Navigate from one Wikipedia article to another using only links. A GeoGuessr-like game for Wikipedia!",
   keywords: ["wikipedia", "game", "navigation", "wiki race", "trivia"],
-  authors: [{ name: "WikiGuesser" }],
+  authors: [{ name: "WikiGuessr" }],
   openGraph: {
-    title: "WikiGuesser - Wikipedia Navigation Game",
+    title: "WikiGuessr - Wikipedia Navigation Game",
     description: "Navigate from one Wikipedia article to another using only links",
     type: "website",
   },

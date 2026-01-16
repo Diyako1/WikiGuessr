@@ -11,7 +11,7 @@ import {
 import { canonicalTitle, isBlockedTitle } from './normalize';
 
 const USER_AGENT =
-  'WikiGuesser/0.1 (https://github.com/wikiguesser/wikiguesser; purpose: educational game)';
+  'WikiGuessr/0.1 (https://github.com/Diyako1/WikiGuessr; purpose: educational game)';
 
 const BASE_URL = 'https://en.wikipedia.org';
 const ACTION_API = `${BASE_URL}/w/api.php`;

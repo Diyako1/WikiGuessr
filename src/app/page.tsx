@@ -191,7 +191,7 @@ export default function SetupPage() {
                 borderBottom: 'none',
                 color: '#000'
               }}>
-                WikiGuesser
+                WikiGuessr
               </h1>
               <p style={{ 
                 fontSize: '0.85em', 
@@ -441,7 +441,7 @@ export default function SetupPage() {
           fontSize: '0.85em',
           color: '#54595d'
         }}>
-          WikiGuesser uses the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener noreferrer">Wikipedia API</a>. 
+          WikiGuessr uses the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener noreferrer">Wikipedia API</a>. 
           Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
         </div>
       </footer>

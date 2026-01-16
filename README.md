@@ -1,10 +1,10 @@
-# WikiGuesser 🎮
+# WikiGuessr 🎮
 
 A Wikipedia navigation game inspired by the "Wiki Game" where players navigate from a START Wikipedia article to a TARGET article by clicking links within the articles. Built as a full-stack Next.js application with Wikipedia-style UI.
 
 ## 🎯 What This Is
 
-WikiGuesser is a browser-based game where you:
+WikiGuessr is a browser-based game where you:
 1. Start on a random Wikipedia article
 2. Try to reach a target Wikipedia article
 3. Navigate ONLY by clicking blue links within articles
@@ -30,7 +30,7 @@ Think of it like "Six Degrees of Kevin Bacon" but for Wikipedia!
 ### Project Structure
 
 ```
-wikiguesser/
+wikiguessr/
 ├── src/
 │   ├── app/                      # Next.js App Router pages
 │   │   ├── page.tsx              # Home/Setup screen

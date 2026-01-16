@@ -362,7 +362,7 @@ export default function PlayPage() {
                   fontSize: '1.2em',
                   color: '#000'
                 }}>
-                  WikiGuesser
+                  WikiGuessr
                 </span>
               </a>
             </div>
@@ -579,7 +579,7 @@ export default function PlayPage() {
           fontSize: '0.8em',
           color: '#72777d'
         }}>
-          WikiGuesser uses the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener noreferrer">Wikipedia API</a>. 
+          WikiGuessr uses the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener noreferrer">Wikipedia API</a>. 
           Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.
         </div>
       </footer>
