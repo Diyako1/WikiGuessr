@@ -8,6 +8,17 @@ You start on a random Wikipedia article and need to reach a target article by cl
 
 The game tracks how many clicks it takes you, how long you spent, and tells you if you're getting closer or farther from the target. There's also a difficulty system based on how many "hops" the optimal path takes.
 
+## Screenshots
+
+![New Game Setup](./screenshots/setup.png)
+*Setting up a new game - pick your start and target articles or generate random ones*
+
+![Gameplay](./screenshots/gameplay.png)
+*Playing the game - navigating from Drake to Genghis Khan*
+
+![Optimal Path Hint](./screenshots/hint.png)
+*The optimal path hint shows the shortest route if you get stuck*
+
 ## Tech Stack
 
 Built with Next.js 16, TypeScript, and Prisma. Uses the official Wikipedia APIs to fetch article content and links. Redis for caching (optional), PostgreSQL for storing game results.
