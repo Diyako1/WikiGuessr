@@ -1,6 +1,4 @@
-/**
- * Wikipedia API client with proper User-Agent, caching, rate limiting, and backoff
- */
+// Wikipedia API client with caching and rate limiting
 
 import {
   CACHE_KEYS,

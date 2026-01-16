@@ -1,7 +1,4 @@
-/**
- * Bounded Bidirectional BFS Solver for Wikipedia navigation
- * Finds shortest path between two Wikipedia articles
- */
+// Bidirectional BFS solver for finding shortest paths between Wikipedia articles
 
 import { getOutgoingLinks, normalizeTitle, isBlockedTitle } from '@/lib/wiki';
 import { getCached, setCache, CACHE_KEYS } from '@/lib/redis';
@@ -21,22 +18,18 @@ export interface DistanceResult {
   status: 'KNOWN' | 'UNKNOWN';
 }
 
-// Solver configuration - default for feasibility checks
+// Solver config
 const DEFAULT_MAX_DEPTH = 7;
 const MAX_VISITED_NODES = 50000;
 const MAX_TIME_MS = 5000;
 
-// Quick solver config for per-move distance checks (faster, smaller budget)
+// Quick check config (used for per-move distance updates)
 const QUICK_MAX_DEPTH = 5;
 const QUICK_MAX_NODES = 5000;
 const QUICK_MAX_TIME_MS = 1500;
 
-// Cache TTL
 const PATH_CACHE_TTL = 3600; // 1 hour
-
-// Cache version - increment this to invalidate old caches
-// v2: Added blocklist filtering for citation pages
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v2'; // Increment to invalidate old caches
 
 // Cache structure that stores both distance AND path
 interface CachedPath {
