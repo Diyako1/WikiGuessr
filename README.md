@@ -82,12 +82,6 @@ The solver uses a bounded bidirectional BFS with configurable depth limits and t
 
 Wikipedia APIs are rate-limited, so everything is heavily cached. Links and summaries cache for 24 hours, search results for 10 minutes.
 
-## Deployment
-
-Works great on Vercel. Just connect your GitHub repo and add your `DATABASE_URL` and `REDIS_URL` environment variables. The app will work without them (using in-memory storage), but performance is better with Redis for caching.
-
-For the database, I used Neon.tech (free tier is plenty). For Redis, Upstash has a good free tier.
-
 ## Notes
 
 - The game filters out a bunch of citation/reference pages like "ISSN (identifier)" and "ISBN" because they make paths too easy and aren't fun to click through
