@@ -10,13 +10,13 @@ The game tracks how many clicks it takes you, how long you spent, and tells you 
 
 ## Screenshots
 
-![New Game Setup](screenshots/setup.png)
+![New Game Setup](https://raw.githubusercontent.com/Diyako1/WikiGuessr/main/screenshots/setup.png)
 *Setting up a new game - pick your start and target articles or generate random ones*
 
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](https://raw.githubusercontent.com/Diyako1/WikiGuessr/main/screenshots/gameplay.png)
 *Playing the game - navigating from Drake to Genghis Khan*
 
-![Optimal Path Hint](screenshots/hint.png)
+![Optimal Path Hint](https://raw.githubusercontent.com/Diyako1/WikiGuessr/main/screenshots/hint.png)
 *The optimal path hint shows the shortest route if you get stuck*
 
 ## Tech Stack
