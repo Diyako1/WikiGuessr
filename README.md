@@ -10,14 +10,16 @@ The game tracks how many clicks it takes you, how long you spent, and tells you 
 
 ## Screenshots
 
-<img src="./screenshots/setup.png" alt="New Game Setup" width="800" />
+<img width="2094" height="1194" alt="Image" src="https://github.com/user-attachments/assets/100ae49f-0f71-44e4-a860-f74e2c614b3d" />
 *Setting up a new game - pick your start and target articles or generate random ones*
 
-<img src="./screenshots/gameplay.png" alt="Gameplay" width="800" />
-*Playing the game - navigating from Drake to Genghis Khan*
+<img width="1704" height="1478" alt="Image" src="https://github.com/user-attachments/assets/651fba85-fdb8-41b6-8e36-7413e046ca7e" />*Playing the game - navigating from Drake to Genghis Khan - progress bar reflects how close you are*
 
-<img src="./screenshots/hint.png" alt="Optimal Path Hint" width="800" />
-*The optimal path hint shows the shortest route if you get stuck*
+<img width="1344" height="1360" alt="Image" src="https://github.com/user-attachments/assets/b4240ae4-f66f-455d-96d4-1e4ba7d26bf1" />
+*screen once you make it to target*
+
+<img width="1752" height="1120" alt="Image" src="https://github.com/user-attachments/assets/c079460b-cf87-4c46-8da2-fda383884507" />
+*If you choose to look at optimal path*
 
 ## Tech Stack
 
